@@ -1,0 +1,73 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: -60px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+.header__nav {
+/*     background-color: red;
+ */    display: flex;
+    justify-content: space-between;
+    margin: 45px 18px 0 18px;
+    align-items: center;
+}
+.header__nav a{
+}
+.header__nav a img{
+    width: 32px;
+}
+.nav__div {
+    margin:20px 105px 0 20px;
+
+/*     background-color: green;
+ */}
+.nav__div h1{
+    font-size: 30px;
+    width: 285px;
+    color: var(--color-1);
+    height: 72px;
+}
+.nav__div span{
+    color: var(--colo-2);
+}
+.search__div {
+/*     background-color: yellow;
+ */    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 346px;
+    height: 41px;
+    background-color: #fffdfd ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.search__div img{
+    width: 21px;
+    height: 21px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.search__div h4{
+    position: relative;
+    left: -50px;
+}
+.search__div a{
+}
+.shortcouts__nav {
+    background-color: blue;
+}
+.shortcouts__div {
+    background-color: violet;
+}
+.shortcouts__div h4{
+}
