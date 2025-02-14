@@ -7,8 +7,11 @@
 }
 .background{
     position: absolute;
-    top: 0px;
-    left: -60px;
+    z-index: -1 ;
+    width: 100%;
+}
+.background img{
+    width: 100%;
 }
 .nav {
     display: flex;
@@ -27,25 +30,26 @@
     width: 32px;
 }
 .nav__div {
-    margin:20px 105px 0 20px;
+    margin:20px 18px 0 20px;
 
 /*     background-color: green;
  */}
-.nav__div h1{
+.nav__div h1{   
     font-size: 30px;
     width: 285px;
     color: var(--color-1);
     height: 72px;
 }
 .nav__div span{
-    color: var(--colo-2);
+    color: #761CBC;
 }
 .search__div {
 /*     background-color: yellow;
  */    display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 346px;
+/*     width: 100%;
+ */
     height: 41px;
     background-color: #fffdfd ;
     border-radius: 10px;
@@ -57,17 +61,100 @@
     margin-left: 12px;
     margin-right: 12px;
 }
-.search__div h4{
+.search__div textarea{
+    justify-content: center;
+    align-content: center;
     position: relative;
+    border: none;
+    outline: none;
     left: -50px;
 }
 .search__div a{
 }
+.scroll{
+/*     width:600px;
+
+     */
+     width: 370px;
+     overflow-x: scroll;
+
+}
 .shortcouts__nav {
-    background-color: blue;
+/*     background-color: blue;
+ */    width: 550px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+
 }
 .shortcouts__div {
-    background-color: violet;
+    background-color: #EDE9FF;
+    width: 112px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+.shortcouts__div a{
+    text-decoration: none;
+    color: black;
 }
 .shortcouts__div h4{
+    font-size: 12px;
+}
+.title__div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+.scroll__image {
+    margin: 16px 0 0 20px;
+    background-color: red;
+}
+.scroll__image-article {
+    background-color: blue;
+}
+.scroll__image-article a{
+}
+.scroll__image-article a img{
+    width: 346px;
+    height: 186px;
+
+}
+.scroll__image-div {
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: px;
+    width: 332px;
+    height: 90px;
+    top: -10px;
+}
+.scroll__text-div{
+    
+}
+.scroll__text-div h3{
+    font-size: 12px;
+}
+.scroll__text-div h4{
+    font-size: 12px;
+}
+.scroll__text-div h4 img{
+    width: 10px;
+    height: 10px;
+}
+.price__div {
+    background-color: violet;
+    position: relative;
+    left: -10px;
+}
+.price__div span{
+}
+.price__div h2{
 }
