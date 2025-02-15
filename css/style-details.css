@@ -17,6 +17,7 @@
     position: absolute;
     z-index: -1 ;
     width: 100%;
+    width: 300px;
     top: 0px;
 }
 .backgroundCold img{
@@ -47,7 +48,7 @@
     height: 8px;
 }
 .information__div {
-    background-color: red;
+    background-color: var(--color-1);
     width: 346px;
     height: 140px;
     border-radius: 14px;
@@ -55,6 +56,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    top: 179px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 
 }
 .information__div-text {
@@ -68,13 +72,19 @@
 }
 .information__div-text h2{
     font-size: 14px;
+    position: relative;
+    left: -5px;
 }
 .information__div-text span{
     font-size: 12px;
+    position: relative;
+    left: 5px;
 }
 .information__div-text span img{
     width: 10px;
     height: 12px;
+    position: relative;
+    left: -10px;
 }
 .information__div-usuario {
     align-items: center;
@@ -85,7 +95,7 @@
 
 .information__div-img {
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     display: flex;
 }
 .information__div-img img{
@@ -102,5 +112,85 @@
 }
 .div__images{
     display: flex;
-    gap: ;
+    justify-content: center;
+    align-items: center;
+}
+.users{
+    margin: 0 -5px;
+}
+
+.section__description {
+    display: flex;
+    margin-top: 220px;
+    margin-left: 22px;
+    margin-right: 22px;
+    flex-direction: column; 
+}
+.div__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+.div__description h3{
+}
+.div__description p{
+    color: var(--color-8);
+}
+.div__description a{
+    text-decoration: none;
+
+}
+.div__description a span{
+    color: var(--color-9);
+}
+.section__maps {
+    margin: 28px 22px 0 22px;
+    width: 100px;
+}
+.div__maps {
+    justify-content: space-between;
+    gap: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.div__maps h3{
+    width: 117px;
+    font-size: 14px;
+}
+.div__maps iframe{
+    width: 346px;
+    height: 212px;
+    border-radius: 12px;
+}
+footer{
+
+}
+.footer__div {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 22px 15px 22px;
+}
+.footer__div-text {
+}
+.footer__div-text h5{
+    font-size: 10px;
+}
+.footer__div-text span{
+    font-size: 16px;
+}
+.footer__div-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 34px;
+    background-color: var(--color-3);
+    border-radius: 20px;
+}
+.footer__div-buy a{
+    font-size: 14px;
+    color: var(--color-1);
+    text-decoration: none;
 }
