@@ -1,4 +1,22 @@
 :root{
     --color-1:#ffff;
-    --color-2:#761CBC;
+    --color-2:#252525;
+    --color-3:#761CBC;
+    --color-4:#EDE9FF;
+    --color-5:#FFF5D7;
+    --color-6:#E4FFEA;
+
+}
+
+@font-face {
+    font-family: "inter-bold";
+    src: url(../storage/font/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: "inter-regular";
+    src: url(../storage/font/Inter_28pt-Regular.ttf);
+}
+@font-face {
+    font-family: "inter-semibold";
+    src: url(../storage/font/Inter_28pt-SemiBold.ttf);
 }
