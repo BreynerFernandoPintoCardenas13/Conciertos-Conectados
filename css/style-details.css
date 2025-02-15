@@ -74,11 +74,19 @@
     font-size: 14px;
     position: relative;
     left: -5px;
+    font-family: "inter-semibold";
 }
+.information__div-text h2 span{
+    color: var(--color-3);
+    font-size: 14px;
+    position: relative;
+    font-family: "inter-semibold";
+}   
 .information__div-text span{
     font-size: 12px;
     position: relative;
     left: 5px;
+    font-family: "inter-regular";
 }
 .information__div-text span img{
     width: 10px;
@@ -109,11 +117,15 @@
 .information__div-img span{
     font-size: 12px;
     width: 100px;
+    font-family: "inter-medium";
+
 }
 .div__images{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.div__images span{
 }
 .users{
     margin: 0 -5px;
@@ -133,11 +145,15 @@
     gap: 8px;
 }
 .div__description h3{
+    font-family: "inter-medium";
 }
 .div__description p{
     color: var(--color-8);
+    font-family: "dm-regular";
+
 }
 .div__description a{
+    font-family: "dm-medium";
     text-decoration: none;
 
 }
