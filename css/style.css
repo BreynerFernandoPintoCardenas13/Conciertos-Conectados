@@ -307,10 +307,14 @@
     
 }
 .title__event h2{
+    font-family: "inter-semibold";
+    font-size: 14px;
 }
 .title__event a{
     text-decoration: none;
     color: #333333;
+    font-family: "inter-regular";
+    font-size: 12px;
 }
 .section__events{
     display: flex;
@@ -320,6 +324,7 @@
     display: flex;
     justify-content: space-between;
     gap: 16px;
+    background-color: var(--color-1);
 }
 .article__events {
     margin-top: 16px;
@@ -342,13 +347,18 @@
 .div__events h4{
     margin: 6px 8px 0 8px;
     font-size: 10px;
+    font-family: "inter-semibold";
 
 }
 .div__events span{
     font-size: 10px;
+    font-family: "inter-regular";
     margin-top: -5px;
 }
 .div__events span img{
     width: 10px;
     height: 10px;
+}
+.price{
+    color: var(--color-7);
 }
