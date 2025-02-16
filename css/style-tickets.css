@@ -5,27 +5,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-.background{
-    position: absolute;
-    z-index: -1 ;
-    width: 100%;
+body{
+    background: linear-gradient(to bottom,  #91B5FD, #F0DDFF);
+    height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    margin: 0; /* Evita márgenes que puedan afectar el fondo */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
-.background img{
-    width: 100%;
+.div__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.backgroundCold {
-    position: absolute;
-    z-index: -1 ;
-    width: 100%;
-    width: 300px;
-    top: 0px;
-}
-.backgroundCold img{
-    width: 390px;
-    height: 316px;
-
-}
-
 .arrow {
     margin: 35px 0 0 22px;
     z-index: 2;
@@ -39,6 +32,24 @@
     background-color: rgba(255, 254, 254, 0.2); 
 /*      filter: blur(10px); 
  */    border-radius: 6px;
+}
+.options {
+    margin: 35px 25px 0 0;
+    z-index: 3;
+    width: 28px;
+    height: 34px;
+    background-color: transparent;
+/*     box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.9);
+ */    justify-content: center;
+    align-items: center;
+    display: flex;
+/*     background-color: rgba(255, 254, 254, 0.2); 
+ *//*      filter: blur(10px); 
+ */    border-radius: 6px;
+}
+.options a img{
+    width: 16px;
+    height: 4px;
 }
 
 .arrow a{
