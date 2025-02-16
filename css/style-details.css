@@ -174,6 +174,7 @@
 .div__maps h3{
     width: 117px;
     font-size: 14px;
+    font-family: "inter-medium";
 }
 .div__maps iframe{
     width: 346px;
@@ -187,14 +188,18 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: 16px 22px 15px 22px;
+    gap: 4px;
 }
 .footer__div-text {
 }
 .footer__div-text h5{
     font-size: 10px;
+    font-family: "inter-regular";
+    
 }
 .footer__div-text span{
     font-size: 16px;
+    font-family: "inter-semibold";
 }
 .footer__div-buy {
     display: flex;
@@ -207,6 +212,7 @@ footer{
 }
 .footer__div-buy a{
     font-size: 14px;
+    font-family: "inter-medium";
     color: var(--color-1);
     text-decoration: none;
 }
