@@ -7,7 +7,7 @@
 }
 body{
     background: linear-gradient(to bottom,  #91B5FD, #F0DDFF);
-    height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    height: 844px; /* Asegura que el fondo cubra toda la pantalla */
     margin: 0; /* Evita márgenes que puedan afectar el fondo */
     /* display: flex;
     flex-direction: column;
@@ -58,172 +58,45 @@ body{
     width: 3px;
     height: 8px;
 }
-.information__div {
-    background-color: var(--color-1);
-    width: 346px;
-    height: 140px;
-    border-radius: 14px;
-    margin-left: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    top: 179px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-
-}
-.information__div-text {
-    margin-left: 20px;
-    margin-top: 18.5px;
-    margin-right: 102px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 6px ;
-}
-.information__div-text h2{
-    font-size: 14px;
-    position: relative;
-    left: -5px;
-    font-family: "inter-semibold";
-}
-.information__div-text h2 span{
-    color: var(--color-3);
-    font-size: 14px;
-    position: relative;
-    font-family: "inter-semibold";
-}   
-.information__div-text span{
-    font-size: 12px;
-    position: relative;
-    left: 5px;
-    font-family: "inter-regular";
-}
-.information__div-text span img{
-    width: 10px;
-    height: 12px;
-    position: relative;
-    left: -10px;
-}
-.information__div-usuario {
-    align-items: center;
-    display: flex;
-    align-items: center;
-    margin: 22.5px 155px 25px 20px;
-}
-
-.information__div-img {
-    align-items: center;
-    gap: 12px;
-    display: flex;
-}
-.information__div-img img{
-    width: 28px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    gap: 1px;
-    height: 28px;
-}
-.information__div-img span{
-    font-size: 12px;
-    width: 100px;
-    font-family: "inter-medium";
-
-}
-.div__images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.div__images span{
-}
-.users{
-    margin: 0 -5px;
-}
-
-.section__description {
-    display: flex;
-    margin-top: 220px;
-    margin-left: 22px;
-    margin-right: 22px;
-    flex-direction: column; 
-}
-.div__description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 8px;
-}
-.div__description h3{
-    font-family: "inter-medium";
-}
-.div__description p{
-    color: var(--color-8);
-    font-family: "dm-regular";
-
-}
-.div__description a{
-    font-family: "dm-medium";
-    text-decoration: none;
-
-}
-.div__description a span{
-    color: var(--color-9);
-}
-.section__maps {
-    margin: 28px 22px 0 22px;
-    width: 100px;
-}
-.div__maps {
-    justify-content: space-between;
-    gap: 12px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-.div__maps h3{
-    width: 117px;
-    font-size: 14px;
-    font-family: "inter-medium";
-}
-.div__maps iframe{
-    width: 346px;
-    height: 212px;
-    border-radius: 12px;
-}
-footer{
-
-}
-.footer__div {
-    display: flex;
-    justify-content: space-between;
-    margin: 16px 22px 15px 22px;
-    gap: 4px;
-}
-.footer__div-text {
-}
-.footer__div-text h5{
-    font-size: 10px;
-    font-family: "inter-regular";
+.section__ticket {
     
 }
-.footer__div-text span{
-    font-size: 16px;
-    font-family: "inter-semibold";
+.section__ticket img{
+    width: 343px;
+    height: 596px;
+    z-index: -1;
+    margin: 115px 26.2px 113px 23.4px;
+
 }
-.footer__div-buy {
+.article__ticket {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 110px;
-    height: 34px;
-    background-color: var(--color-3);
-    border-radius: 20px;
+    flex-direction: column;
+    margin-left: 18.15px;
+    margin-right: 18.15px;
 }
-.footer__div-buy a{
-    font-size: 14px;
-    font-family: "inter-medium";
-    color: var(--color-1);
-    text-decoration: none;
+.div__ticket-title {
+}
+.div__ticket-title img{
+    width: 308px;
+    height: 159px;
+}
+.div__ticket-title h2{
+}
+.div__ticket-title span{
+}
+.div__ticket-information {
+}
+.div__ticket-information-text {
+}
+.text__information {
+}
+.text__information h3{
+}
+.text__information span{
+}
+.div__code {
+}
+.div__code img{
+}
+.div__code span{
 }
