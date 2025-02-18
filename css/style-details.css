@@ -161,7 +161,7 @@
     color: var(--color-9);
 }
 .section__maps {
-    margin: 28px 22px 0 22px;
+    margin: 28px 22px 80px 22px;
     width: 100px;
 }
 .div__maps {
@@ -182,7 +182,11 @@
     border-radius: 12px;
 }
 footer{
-
+    bottom: 0;
+    position: fixed;
+    height: 66px;
+    width: 390px;
+    background-color: var(--color-1);
 }
 .footer__div {
     display: flex;
